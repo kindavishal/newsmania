@@ -1,37 +1,34 @@
-  .example-card{
-      margin-top: 4px;
-  }
-  
-  .example-header-image { 
-    background-size: cover;
-  }
-    
-  .img-article{
-      max-width: 600px;
-  }
-  
-  .action-buttons{
-      text-align: center;
-  }
-    
-  .example-sidenav-content {
-      display: flex;
-      height: 75%;
-      align-items: center;
-      justify-content: center;
-  }
-  
-  /* .example-sidenav {
-      padding: 20px;
-  } */
-  
-  .source-name {
-      margin-left:5px; 
-  }
-  
-  .list-item:hover{
-      cursor: pointer;
-      background-color: #3f51b5;
-      color: white;
-  }
-  
+.card {
+    max-width: 400px;
+    margin: 10px 20px 15px 0px;
+    box-shadow: 1px 4px 5px #888;
+}
+
+.example-card{
+    margin-top: 4px;
+}
+
+.img-article{
+    max-width: 600px;
+}
+
+.action-buttons{
+    text-align: center;
+}
+
+.example-sidenav-content {
+    display: flex;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+}
+
+.source-name {
+    margin-left:5px; 
+}
+
+.list-item:hover{
+    cursor: pointer;
+    background-color: #3f51b5;
+    color: white;
+}
