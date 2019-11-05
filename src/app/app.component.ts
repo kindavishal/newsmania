@@ -16,10 +16,10 @@ export class AppComponent {
   }
 
   ngOnInit() {
-        //load articles
+    //load articles
       this.newsapi.initArticles().subscribe(data => this.mArticles = data['articles']);
     //load news sources
-    this.newsapi.initSources().subscribe(data=> this.mSources = data['sources']);  
+      this.newsapi.initSources().subscribe(data=> this.mSources = data['sources']);  
     }
 
   searchArticles(source){

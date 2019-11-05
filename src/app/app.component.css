@@ -15,7 +15,8 @@
   }
   
   .img-article{
-      height: 350px;
+      height: auto;
+      max-width: 50%;
   }
   
   .action-buttons{
